@@ -1,6 +1,7 @@
 <?php 
 
 namespace app\classes;
+use app\database\Connection;
 
 class Update{
     public function update($table, $fields, $where){

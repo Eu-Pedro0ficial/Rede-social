@@ -1,6 +1,7 @@
 <?php
 
 namespace app\classes;
+use app\database\Connection;
 
 class Delete{
     public function delete($table, $fields){
