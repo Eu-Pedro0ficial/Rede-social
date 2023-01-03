@@ -1,7 +1,7 @@
 <?php
 
 namespace app\classes\querybuilder;
-use app\classes\Connection;
+use app\database\Connection;
 
 class Model{
     protected $query = '';
