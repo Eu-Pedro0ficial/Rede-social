@@ -1,0 +1,32 @@
+{
+    "name": "pedro/rede-social",
+    "autoload": {
+        "files": [
+            "app/routes/routes.php",
+            "app/routes/router.php",
+            "app/helpers/debbug.php",
+            "app/helpers/constantes.php",
+            "app/helpers/loadPage.php",
+            "app/helpers/validate.php",
+            "app/helpers/redirect.php",
+            "app/helpers/flash.php",
+            "app/helpers/validations.php",
+            "app/helpers/logged.php",
+            "app/helpers/image.php",
+            "app/helpers/format.php",
+            "app/helpers/persistFields.php"
+
+        ],
+        "psr-4": {
+            "app\\":"app"
+        }
+    },
+    "authors": [
+        {
+            "name": "pedro"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
